@@ -1,0 +1,29 @@
+package ATV10;
+
+public class ContaBancaria{
+
+    private String nome;
+    private String numero;
+    private double saldo; 
+
+    public ContaBancaria(String nome, String numero){
+        this.nome = nome;
+        this.numero = numero;
+    }
+
+    public void depositar(double valor){
+        this.saldo += valor;
+    }
+
+    public void saque(double valor){
+        this.saldo -= valor;
+    }
+
+    public double getValue(){
+        return this.saldo;
+    }
+
+    public String getNumero(){
+        return this.numero;
+    }
+}
