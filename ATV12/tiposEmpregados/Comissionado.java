@@ -1,4 +1,4 @@
-package ATV12;
+package ATV12.tiposEmpregados;
 
 public class Comissionado extends Empregado{
     
@@ -13,6 +13,6 @@ public class Comissionado extends Empregado{
 
     @Override
     public double vencimento(){
-        return 0;
+        return this.totalVenda * (this.taxaComissao/100);
     }
 }

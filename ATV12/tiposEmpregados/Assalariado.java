@@ -1,4 +1,4 @@
-package ATV12;
+package ATV12.tiposEmpregados;
 
 public class Assalariado extends Empregado{
     

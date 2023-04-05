@@ -1,4 +1,4 @@
-package ATV12;
+package ATV12.tiposEmpregados;
 
 public class Empregado {
     
@@ -14,5 +14,9 @@ public class Empregado {
 
     public double vencimento(){
         return 0;
+    }
+
+    public String toString(){
+        return "Nome: " + this.nome + ", Sobrenome: " + this.sobrenome + ", CPF: " + this.cpf + ", Vencimento: " + this.vencimento();
     }
 }
